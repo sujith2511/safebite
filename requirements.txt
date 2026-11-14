@@ -1,0 +1,14 @@
+streamlit>=1.40
+httpx>=0.27
+requests>=2.32
+python-dotenv>=1.0
+pydantic>=2.8
+pillow>=10.4
+pandas>=2.2
+matplotlib>=3.9
+pytest>=8.3
+# Frontier LLM SDKs (only the one named by LLM_PROVIDER is imported at runtime)
+anthropic>=1.0
+openai>=1.50
+google-genai>=1.0
+duckdb>=1.1
